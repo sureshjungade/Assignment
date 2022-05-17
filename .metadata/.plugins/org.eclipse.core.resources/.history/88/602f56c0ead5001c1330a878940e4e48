@@ -1,0 +1,81 @@
+package com.first_project;
+
+class First {
+
+	static void primeMethod(int num) {
+    		
+		if(num<2 || num>100) {
+			System.out.println("Invalid number");
+		}
+		else {
+			for(int i=1; i<=num; i++) {
+				if(num%i==0) {
+					System.out.println(i);
+				}
+			}
+		}
+
+  	}
+
+	public static void main(String[] args){
+
+		primeMethod(2);
+
+	}
+
+}
+//-----------
+
+//class First {
+//
+//	static void cityMethod(String city) {
+//    		switch(city){
+//			case "Mumbai":
+//				System.out.println("Financial city");
+//				break;
+//			case "Kolkata":
+//				System.out.println("City of Joy");
+//				break;
+//			case "Delhi":
+//				System.out.println("Capital of the country");
+//				break;
+//			case "Bangalore":
+//				System.out.println("Cyber City");
+//				break;
+//			default:
+//				System.out.println("May be Other Indian City");
+//				break;
+//
+//		}
+//
+//  	}
+//
+//	public static void main(String[] args){
+//
+//		cityMethod("Bangalore");
+//
+//	}
+//
+//}
+
+//--------------
+
+//public class First {
+//
+//public static void main(String[] args) {
+//	System.out.println("Name : Suresh Jungade");
+//	System.out.println("Father’s Name : Gajanan Jungade");
+//	System.out.println("Mother’s Name : Sangita Jungade");
+//	System.out.println("Age : 23");
+//	System.out.println("Gender : Male");
+//	System.out.println("Address : Om Complex, Bamroli, Surat");
+//	System.out.println("Mobile No : 8141334699");
+//}
+//}
+
+
+
+
+
+
+

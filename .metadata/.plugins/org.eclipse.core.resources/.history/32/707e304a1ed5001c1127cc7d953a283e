@@ -1,0 +1,13 @@
+package com.first_project;
+
+public class First {
+	
+	public static void main(String[] args) {
+		System.out.println("Name : Suresh Jungade");
+		System.out.println("Father’s Name : Gajanan Jungade");
+		System.out.println("Mother’s Name : Sangita Jungade");
+		System.out.println("Age : 23");
+		System.out.println("Gender : Male");
+		System.out.println("Mobile No : 8141334699");
+	}
+}
