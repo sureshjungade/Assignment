@@ -16,15 +16,15 @@ public class Main {
 		for(int i=0; i<noofS; i++) {
 			System.out.println("Enter the Roll Number");
 			object.setRoll(scanner.nextInt());
-			int R = scanner.nextInt();
+			//int R = scanner.nextInt();
 			System.out.println("Enter the Name");
 			object.setName(scanner.next());
-			String N = scanner.next();
+			//String N = scanner.next();
 			
 			scanner.nextLine();
 			System.out.println("Enter the marks");
 			object.setmarks(scanner.nextInt());
-			int M = scanner.nextInt();
+			//int M = scanner.nextInt();
 			//new Student(R,N,M);
 			System.out.println("Student Detail: "+(i+1));
 			System.out.println("Student Roll Number: "+object.getRoll());
