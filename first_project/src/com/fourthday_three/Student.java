@@ -75,14 +75,21 @@ public class Student {
 		
 		object1 = getStudent(true);
 		
+		
 		System.out.println(object1.name);
+		System.out.println(object1.roll);
+		System.out.println(object1.address);
+		System.out.println(object1.collageName);
+		System.out.println("================================");
 		
-		//Scanner scanner = new Scanner(System.in);
+		Student object2;
+		object2 = getStudent(false);
+		System.out.println(object2.name);
+		System.out.println(object2.roll);
+		System.out.println(object2.address);
+		System.out.println(object2.collageName);
 		
-//		System.out.println("Are you from isFromNIT (true or false)");
-//		System.out.println(object1.getCollageName());
-			//boolean NITor = object.getStudent(scanner.next());
-			//scanner.nextInt();
+
 	}
 
 }

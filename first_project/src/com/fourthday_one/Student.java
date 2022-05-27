@@ -49,7 +49,7 @@ public class Student {
     }
 	
 	public int getMarks() {
-    	return roll;
+    	return marks;
 	}
 	
 	public void setMarks(int marks) {

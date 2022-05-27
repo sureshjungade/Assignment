@@ -12,12 +12,12 @@ public class Main {
 		System.out.println("object1");
 		object1.showDetails();
 		
-		System.out.println("object2");
+		System.out.println("===================object2==================");
 		Student object2 = new Student(22,"Suresh",24,400);
-		System.out.println(object2.getRoll());
-		System.out.println(object2.getName());
-		System.out.println(object2.getAge());
-		System.out.println(object2.getMarks());
+		System.out.println("Roll is :"+object2.getRoll());
+		System.out.println("Name is :"+object2.getName());
+		System.out.println("Age is :"+object2.getAge());
+		System.out.println("Marks is :"+object2.getMarks());
 		
 	}
 
