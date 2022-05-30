@@ -2,7 +2,7 @@ package com.ninthday_02;
 
 import java.util.Scanner;
 
-public class Child extends Parent{
+public final class Child extends Parent{
 	
 	@Override
 	public void method1() {

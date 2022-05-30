@@ -8,7 +8,7 @@ public class ClassCastException{
     	Vehicle a2 = new Bike();
     	Vehicle a3 = new Scooter();
         
-        // here we can pass Vehicle, B, C object to the variable with Vehicle reference since Vehicle is the same
+        // here we can pass Vehicle, Bike, Scooter object to the variable with Vehicle reference since Vehicle is the same
         //class while Bike & Scooter are the subclasses of the Vehicle
         
         
