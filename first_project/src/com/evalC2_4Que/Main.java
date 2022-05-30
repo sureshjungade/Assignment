@@ -11,12 +11,12 @@ public class Main {
 		// TODO Auto-generated method stub
 		Main main = new Main();
 		Person newStudent = generatePerson(new Student("suresh","male",12,"Ft",1000));
-		Person newTeacher = generatePerson(new Instructor());
+		Person newTeacher = generatePerson(new Instructor("suresh","male",12,2000));
 
 		System.out.println(newStudent);
 		System.out.println(newTeacher);
 		
-		
+		//String name, String gender, int instructorId, int salary
 	}
 
 }
