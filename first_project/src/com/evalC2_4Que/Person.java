@@ -4,15 +4,22 @@ public class Person {
 	
 	String Name;
 	String Gender;
+	Address address;
+	
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
 	public Person() {
 	}
 	
-	public Person(String name, String gender) {
-		super();
-		Name = name;
-		Gender = gender;
-	}
-
+	
+	
+	
 	public String getName() {
 		return Name;
 	}
@@ -36,7 +43,10 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person [Name=" + Name + ", Gender=" + Gender + "]";
+		return "Person [Name=" + Name + ", Gender=" + Gender + ", address=" + address + "]";
 	}
+
+	
+	
 
 }

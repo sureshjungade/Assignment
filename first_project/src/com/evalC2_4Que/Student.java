@@ -9,13 +9,7 @@ public class Student extends Person{
 	public Student() {
 	}
 	
-	public Student(String name, String gender, int studentId, String courseEnrolled, int courseFee) {
-		super(name, gender);
-		this.studentId = studentId;
-		this.courseEnrolled = courseEnrolled;
-		this.courseFee = courseFee;
-	}
-
+	
 	public int getStudentId() {
 		return studentId;
 	}
@@ -48,7 +42,7 @@ public class Student extends Person{
 	@Override
 	public String toString() {
 		return "Student [studentId=" + studentId + ", courseEnrolled=" + courseEnrolled + ", courseFee=" + courseFee
-				+ "]";
+				+ ", Address="+this.address +"]";
 	}
 
 }

@@ -8,11 +8,15 @@ public class Instructor extends Person{
 	public Instructor() {
 	}
 	
-	public Instructor(String name, String gender, int instructorId, int salary) {
-		super(name, gender);
+	
+
+	public Instructor(int instructorId, int salary) {
+		super();
 		this.instructorId = instructorId;
 		this.salary = salary;
 	}
+
+
 
 	public int getInstructorId() {
 		return instructorId;
@@ -37,7 +41,7 @@ public class Instructor extends Person{
 
 	@Override
 	public String toString() {
-		return "Instructor [instructorId=" + instructorId + ", salary=" + salary + "]";
+		return "Instructor [instructorId=" + instructorId + ", salary=" + salary + ", Address="+this.address +"]";
 	}
 
 }
