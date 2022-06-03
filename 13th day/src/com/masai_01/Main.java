@@ -1,4 +1,4 @@
-package com.masai_03;
+package com.masai_01;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
