@@ -38,26 +38,23 @@ public class IPL {
 		System.out.println("Enter Stadium Name according to Enum");
 		String  StadiumName = sc.next();
 		int count = 0;
-		Stadium input = Stadium.valueOf(StadiumName);
-		System.out.println("sdvsdfsfd");
 		
-		for(Stadium arr1 : arr) {
-			if(arr1.equals(input)) {
-				count++;
-				break;
+		//System.out.println("sdvsdfsfd");
+		
+		try {
+			Stadium input = Stadium.valueOf(StadiumName);
+			for(Stadium arr1 : arr) {
+				if(arr1.equals(input)) {
+					ipl.homeTeamStadium(input);
+					count++;
+					break;
+				}
+				
 			}
-			
-		}
-		if(count==0) {
+		}catch(IllegalArgumentException ill) {
 			System.out.println("Enter Proper Stadium Name according to Enum");
 		}
-		else {
-			
-			ipl.homeTeamStadium(input);
-		}
-		
-		
-		
+				
 		
 	}
 

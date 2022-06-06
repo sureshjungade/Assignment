@@ -13,6 +13,7 @@ public class Demo {
 		boolean Name = Pattern.matches("[a-zA-Z]{3,8}", name);
 		boolean MobileNumber = Pattern.matches("[6789]{1}[0-9]{9}", mobileNum);
 		boolean AadharNumber = Pattern.matches("[0-9]{12}", aadharCard);
+		
 		if(Name==true && MobileNumber==true && AadharNumber==true) {
 			return true;
 		}

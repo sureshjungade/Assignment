@@ -2,11 +2,6 @@ package com.Tenthday_01;
 
 public class TajHotel implements Hotel{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	@Override
 	public void chickenBiryani() {
 		// TODO Auto-generated method stub
