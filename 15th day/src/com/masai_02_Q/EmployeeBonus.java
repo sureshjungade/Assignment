@@ -35,9 +35,7 @@ public class EmployeeBonus {
 		}catch(DateTimeParseException dt) {
 			throw new InvalidAgeException("Please pass the date in the correct format");
 		}
-		
-//		System.out.println();
-		
+				
 	}
 	
 	
